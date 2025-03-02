@@ -1,5 +1,5 @@
 # Capstone project - Ecommerce
-# Technology
+## Technology
 - Spring Web
 - Spring JPA
 - Spring security
@@ -8,9 +8,9 @@
 - Redis
 - RabbitMQ
 - Elastic search
-# Database
+## Database
 - MySQL
-# Features
+## Features
 - Customer
 - Shop dashboard
 - Admin dashboard
