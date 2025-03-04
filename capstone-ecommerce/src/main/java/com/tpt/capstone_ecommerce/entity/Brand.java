@@ -26,9 +26,8 @@ public class Brand {
     @Column(unique = true, nullable = false, updatable = false)
     private UUID id;
 
-    @Column(nullable = false, name = "description")
-    @NotBlank(message = "Brand description cannot be blank")
     @Lob
+    @Column(nullable = false, columnDefinition = "TEXT", name = "description")
     private String description;
 
     @Column(nullable = false, name = "image_url", length = 500)

@@ -21,7 +21,7 @@ import java.util.UUID;
 @NoArgsConstructor
 @AllArgsConstructor
 @Builder
-@Table(name = "roles")
+@Table(name = "otps")
 public class Otp {
     @Id
     @GeneratedValue(strategy = GenerationType.UUID)

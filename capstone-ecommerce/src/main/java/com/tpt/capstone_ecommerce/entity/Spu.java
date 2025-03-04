@@ -31,9 +31,8 @@ public class Spu {
     @Size(min = 1, max = 255, message = "SPU name length is invalid")
     private String name;
 
-    @Column(nullable = false, name = "description")
-    @NotBlank(message = "SPU description cannot be blank")
     @Lob
+    @Column(nullable = false, columnDefinition = "TEXT", name = "description")
     private String description;
 
     @Column(nullable = false, name = "slug", unique = true)
